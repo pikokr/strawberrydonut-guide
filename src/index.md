@@ -11,5 +11,5 @@ features:
   details: 딸기언어를 사용하면 무엇이든지 만들 수 있습니다.
 - title: 커스텀 커맨드
   details: 원하는 커맨드를 직접 만들어서 사용할 수 있습니다.
-footer: Made by ❤️ with ❤StrawberryDonut
+footer: Made by ❤️ with StrawberryDonut
 ---
