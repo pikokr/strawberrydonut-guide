@@ -42,7 +42,7 @@ module.exports = {
    */
   head: [
     ['link', { rel: 'shortcut icon', href: 'assets/StrawberryDonutCircle.png' }],
-    ['meta', { property: 'og:image', content: 'assets/StrawberryDonut.png' }],
+    ['meta', { property: 'og:image', content: 'https://guide.sbdonut.dev/assets/StrawberryDonut.png' }],
     ['meta', { name: 'theme-color', content: '#ed91ad' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
