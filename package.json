@@ -1,0 +1,23 @@
+{
+  "name": "guide",
+  "version": "0.0.1",
+  "description": "StrawberryDonut - 나만의 스토리를 만들다",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/StrawberryDonut/guide",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "prismjs": "^1.23.0",
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
+  }
+}
