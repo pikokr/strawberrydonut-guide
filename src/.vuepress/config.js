@@ -56,7 +56,7 @@ module.exports = {
   base: '/',
   theme: 'default-prefers-color-scheme',
   themeConfig: {
-    repo: 'https://github.com/StrawberryDonut/Guide',
+    repo: 'https://github.com/StrawberryDonut/guide',
     editLinks: false,
     docsDir: 'src',
     editLinkText: '',
