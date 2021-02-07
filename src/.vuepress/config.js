@@ -114,9 +114,11 @@ module.exports = {
     [
       '@vuepress/last-updated',
       {
-        dateOptions: {
-          dateStyle: 'full',
-          timeStyle: 'short',
+        transformer: (timestamp, lang) => {
+          return new Date(timestamp).toLocaleString(lang, {
+            dateStyle: 'full',
+            timeStyle: 'short',
+          })
         },
       },
     ],
