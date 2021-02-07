@@ -60,7 +60,7 @@ module.exports = {
     editLinks: false,
     docsDir: 'src',
     editLinkText: '',
-    lastUpdated: true,
+    lastUpdated: '마지막 업데이트',
     nav: [
       {
         text: 'Guide',
@@ -111,5 +111,20 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+    [
+      '@vuepress/last-updated',
+      {
+        dateOptions: {
+          dateStyle: 'full',
+          timeStyle: 'short',
+        },
+      },
+    ],
+  ],
+
+  locales: {
+    '/': {
+      lang: 'ko',
+    },
+  },
 }
